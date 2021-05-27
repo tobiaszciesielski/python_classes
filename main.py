@@ -12,7 +12,3 @@ ac2 = bank.create_account(SavingsAccount, c2)
 ac1.deposit(300)
 
 bank.transfer(ac1.id, ac2.id, 200)
-
-
-
-
