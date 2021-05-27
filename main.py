@@ -1,7 +1,6 @@
 from savingAccount import SavingsAccount
 from checkingAccount import CheckingAccount
 from bank import Bank
-from customer import Customer
 
 bank = Bank()
 c1 = bank.new_customer('tobi', 'cie')

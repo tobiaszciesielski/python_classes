@@ -25,10 +25,8 @@ class Bank:
         account_from.charge(amount)
         account_to.deposit(amount)
 
-
     def find_account_by_id(self, acc_id):
         for index, account in enumerate(self.accounts):
             if account.id == acc_id:
                 return self.accounts[index]
-
         raise BankException("Account with provided id not found")
